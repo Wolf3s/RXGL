@@ -1,0 +1,20 @@
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.userosscache
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Build outputs (CMake + native VS)
+build/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.exe
+*.ilk
+*.pdb
+
+*.ncb

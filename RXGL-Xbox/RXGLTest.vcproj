@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="RXGLTest"
+	ProjectGUID="{DF3AC652-8AC3-4DBF-B461-3F51E71F4528}"
+	Keyword="XboxProj">
+	<Platforms>
+		<Platform
+			Name="Xbox"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Xbox"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="_DEBUG;_XBOX"
+				AdditionalIncludeDirectories="..\RXGL"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilibd.lib d3d8d.lib d3dx8d.lib xgraphicsd.lib dsoundd.lib dmusicd.lib xactengd.lib xsndtrkd.lib xvoiced.lib xonlined.lib xboxkrnl.lib xbdm.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="2"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeForWindows98="1"
+				TargetMachine="1"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"
+				IncludeDebugInfo="TRUE"
+				NoLibWarn="TRUE"/>
+		</Configuration>
+		<Configuration
+			Name="Profile|Xbox"
+			OutputDirectory="Profile"
+			IntermediateDirectory="Profile"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX;PROFILE"
+				AdditionalIncludeDirectories="..\RXGL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8i.lib d3dx8.lib xgraphics.lib dsound.lib dmusici.lib xactengi.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib xbdm.lib xperf.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"
+				IncludeDebugInfo="TRUE"
+				NoLibWarn="TRUE"/>
+		</Configuration>
+		<Configuration
+			Name="Profile_FastCap|Xbox"
+			OutputDirectory="Profile_FastCap"
+			IntermediateDirectory="Profile_FastCap"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX;PROFILE;FASTCAP"
+				AdditionalIncludeDirectories="..\RXGL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+				FastCAP="TRUE"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8i.lib d3dx8.lib xgraphics.lib dsound.lib dmusici.lib xactengi.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib xbdm.lib xperf.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="XboxDeploymentTool"/>
+			<Tool
+				Name="XboxImageTool"
+				StackSize="65536"
+				IncludeDebugInfo="TRUE"
+				NoLibWarn="TRUE"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Xbox"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX"
+				AdditionalIncludeDirectories="..\RXGL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8.lib d3dx8.lib xgraphics.lib dsound.lib dmusic.lib xacteng.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="XboxDeploymentTool"/>
+			<Tool Name="XboxImageTool" StackSize="65536"/>
+		</Configuration>
+		<Configuration
+			Name="Release_LTCG|Xbox"
+			OutputDirectory="Release_LTCG"
+			IntermediateDirectory="Release_LTCG"
+			ConfigurationType="1"
+			CharacterSet="2"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="NDEBUG;_XBOX;LTCG"
+				AdditionalIncludeDirectories="..\RXGL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				EnableEnhancedInstructionSet="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="xapilib.lib d3d8ltcg.lib d3dx8.lib xgraphicsltcg.lib dsound.lib dmusicltcg.lib xactengltcg.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib"
+				OutputFile="$(OutDir)/$(ProjectName).exe"
+				LinkIncremental="1"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				TargetMachine="1"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="XboxDeploymentTool"/>
+			<Tool Name="XboxImageTool" StackSize="65536"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<!-- Shim source files (compiled from ..\RXGL\) -->
+		<Filter
+			Name="Shim"
+			Filter="cpp;c;cxx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="..\RXGL\rxgl_arrays.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_core.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_displaylist.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_immediate.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_lighting.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_matrix.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_renderstate.cpp"></File>
+			<File RelativePath="..\RXGL\rxgl_texture.cpp"></File>
+		</Filter>
+		<!-- Shim headers (IDE browsing) -->
+		<Filter
+			Name="Shim Headers"
+			Filter="h;hpp;hxx"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="..\RXGL\rxgl_api.h"></File>
+			<File RelativePath="..\RXGL\rxgl_internal.h"></File>
+			<File RelativePath="..\RXGL\rxgl_arrays.h"></File>
+			<File RelativePath="..\RXGL\rxgl_displaylist.h"></File>
+			<File RelativePath="..\RXGL\rxgl_immediate.h"></File>
+			<File RelativePath="..\RXGL\rxgl_lighting.h"></File>
+			<File RelativePath="..\RXGL\rxgl_matrix.h"></File>
+			<File RelativePath="..\RXGL\rxgl_renderstate.h"></File>
+			<File RelativePath="..\RXGL\rxgl_texture.h"></File>
+		</Filter>
+		<!-- Test harness -->
+		<Filter
+			Name="Tests"
+			Filter="cpp;c;cxx;h;hpp"
+			UniqueIdentifier="{B3F2A1D4-6E8C-4A9B-B5D7-3C2F1E0A4B8D}">
+			<File RelativePath=".\Main.cpp"></File>
+			<File RelativePath=".\Tests_Shared.h"></File>
+			<File RelativePath=".\Tests_00_to_24.h"></File>
+			<File RelativePath=".\Tests_25_to_49.h"></File>
+			<File RelativePath=".\Tests_50_to_75.h"></File>
+			<File RelativePath=".\Tests_76_to_101.h"></File>
+			<File RelativePath=".\Tests_pbgl_samples.h"></File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
