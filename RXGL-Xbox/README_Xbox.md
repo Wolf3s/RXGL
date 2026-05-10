@@ -22,7 +22,7 @@ producing correct output.
 
 ## Building
 
-Open `RXGLTest.sln` in Visual Studio 2003 with the Xbox XDK installed.
+Open `RXGLTest.sln` in Visual Studio 2003 or Open `RXGLTest-RXDK.slnx` in Visual Studio 2026 with the Xbox XDK/RXDK installed.
 The project includes all shim `.cpp` files from `../RXGL/` and adds `../RXGL/`
 to the include path automatically. Build configurations available:
 

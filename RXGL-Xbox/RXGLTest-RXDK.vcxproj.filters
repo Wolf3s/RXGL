@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shim">
+      <UniqueIdentifier>{dab8db23-fdf1-4db5-95be-ac898237764a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shim Headers">
+      <UniqueIdentifier>{1e0b4b6a-5ff9-4ee7-a215-63c37820b2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{c2a057ce-60d0-4ba3-b34c-ef25f5df988c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RXGL\rxgl_api.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_arrays.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_displaylist.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_immediate.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_internal.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_lighting.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_matrix.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_renderstate.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RXGL\rxgl_texture.h">
+      <Filter>Shim Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests_00_to_24.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests_25_to_49.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests_50_to_75.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests_76_to_101.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests_pbgl_samples.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests_Shared.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\RXGL\rxgl_arrays.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_core.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_displaylist.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_immediate.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_lighting.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_matrix.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_renderstate.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RXGL\rxgl_texture.cpp">
+      <Filter>Shim</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="crt_stubs_vs2026.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
